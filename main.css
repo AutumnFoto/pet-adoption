@@ -1,24 +1,128 @@
 body {
-    background-color: lightcyan;
+  background-color: lightcyan;
 }
 
-.pets{
-    display:flex;
-    flex-flow: row wrap;
-    margin: 1em;
-    justify-content: space-evenly;
+.pets {
+  display: flex;
+  flex-flow: row wrap;
+  margin: 1em;
+  justify-content: space-evenly;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
 }
 
 .pet {
-    margin:2em;
-    text-align: center;
+  margin: 2em;
+  text-align: center;
 }
 
 .pet img {
-    width: 350px;
-    height: 350px;
+  width: 350px;
+  height: 350px;
 }
 
-.pet-type{
-    text-transform: uppercase;
+.pet-type {
+  text-transform: uppercase;
+  font-family: cursive;
 }
+
+.buttons{
+    display:flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+    margin: 50px;
+}
+
+.cat-btn {
+    box-shadow: 0px 0px 0px 2px #9fb4f2;
+	background-color:#7892c2;
+	border-radius:10px;
+	border:1px solid #4e6096;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:19px;
+	padding:12px 37px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #283966;
+}
+.cat-btn:hover {
+	background-color:#476e9e;
+}
+.cat-btn:active {
+	position:relative;
+	top:1px;
+}
+
+
+.dog-btn{
+
+	box-shadow: 0px 0px 0px 2px #9fb4f2;
+	background-color:#7892c2;
+	border-radius:10px;
+	border:1px solid #4e6096;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:19px;
+	padding:12px 37px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #283966;
+}
+.dog-btn:hover {
+	background-color:#476e9e;
+}
+.dog-btn:active {
+	position:relative;
+	top:1px;
+}
+
+.dino-btn{
+	box-shadow: 0px 0px 0px 2px #9fb4f2;
+	background-color:#7892c2;
+	border-radius:10px;
+	border:1px solid #4e6096;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:19px;
+	padding:12px 37px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #283966;
+}
+.dino-btn:hover {
+	background-color:#476e9e;
+}
+.dino-btn:active {
+	position:relative;
+	top:1px;
+}
+
+.all-btn{
+
+	box-shadow: 0px 0px 0px 2px #9fb4f2;
+	background-color:#7892c2;
+	border-radius:10px;
+	border:1px solid #4e6096;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:19px;
+	padding:12px 37px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #283966;
+}
+.all-btn:hover {
+	background-color:#476e9e;
+}
+.all-btn:active {
+	position:relative;
+	top:1px;
+}
+
+
+
+
