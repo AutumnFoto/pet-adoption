@@ -1,3 +1,24 @@
 body {
     background-color: lightcyan;
 }
+
+.pets{
+    display:flex;
+    flex-flow: row wrap;
+    margin: 1em;
+    justify-content: space-evenly;
+}
+
+.pet {
+    margin:2em;
+    text-align: center;
+}
+
+.pet img {
+    width: 350px;
+    height: 350px;
+}
+
+.pet-type{
+    text-transform: uppercase;
+}
