@@ -83,3 +83,17 @@ const pets = [
         
         
       
+    //   const dogButton = document.getElementById('dog-btn');
+    //   const catButton= document.getElementById('cat-btn');
+    //   const dinoButton= document.getElementById('dino-btn');
+    //   const allButton= document.getElementById('all-btn');
+
+    //   dogButton.addEventListener('click',function(event)){
+
+        // for(let i=0; i< pets.length; i++)
+        // if (pets[i].typeOfPets === "dog") {
+
+        // }
+    
+
+      
