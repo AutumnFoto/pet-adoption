@@ -54,3 +54,32 @@ const pets = [
 
 
     ]
+
+    const printToDom= (divid,textToPrint)=> {
+
+        const selectedDiv = document.getElementById(divid);
+        selectedDiv.innerHTML = textToPrint;
+        }
+        const buildPetCards = () => {
+          let domString ='';
+        
+            for(let i=0; i <pets.length; i++) {
+            domString += `<div class="pet">`; 
+            domString += `<div class="pet-name"><h2>${pets[i].name}</h2></div>`;
+            domString += `<div class="pet-image"><img src =${pets[i].image} alt ="Image of a ${pets[i].typeOfPet}"></div>`;
+            domString += `<div class ="pet-color"><h3>${pets[i].color}</h3></div>`;
+        
+            domString += `<div class="pet-skills"><p> This pet's special skill is ${pets[i].specialSkill}</p></div>`;
+            domString +=`<div class="pet-type"><h3>${pets[i].typeOfPet}</h3></div>`;
+            domString += `</div>`;
+            }
+
+            printToDom("pets", domString);
+        }
+        
+           
+            
+            buildPetCards();
+        
+        
+       
