@@ -83,9 +83,6 @@ const dinoButton = document.getElementById("dino-btn");
 const allButton = document.getElementById("all-btn");
 
 const getPets = document.getElementsByClassName("pet");
-const getCats = document.getElementsByClassName("pet-cat");
-const getDogs = document.getElementsByClassName("pet-dog");
-const getDinos = document.getElementsByClassName("pet-dino");
 
 const sortPets = (petType) => {
   for (let l = 0; l < getPets.length; l++) {
